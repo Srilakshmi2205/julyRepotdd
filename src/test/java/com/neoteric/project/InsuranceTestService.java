@@ -20,6 +20,7 @@ public class InsuranceTestService {
 
         Assertions.assertEquals("India",ins.insAddress);
         Assertions.assertNotNull(insuranceType.InsPolicyType);
+        
 
     }
 }

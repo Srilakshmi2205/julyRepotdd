@@ -20,7 +20,7 @@ public class BankServiceTest {
         bank.amount = 4000;
 
         BankService bankService = new BankService();
-        Account account = bankService.createAccount(bank );
+        Account account = bankService.createAccount(bank);
 
 
         Assertions.assertEquals(4000,bank.amount);
